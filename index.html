@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webdcb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="ty" href="ty.html">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My first web development project!</h1>
+    <p>Hello dear reader, and welcome to my web page! This is my very first time creating something like this, 
+    so i hope that it turns out well.  Let's get started!</p>
+    <h2>Silly Animals</h2>
+    <p>One thing that i realised while making this was that the most difficult part about creating a website is 
+        choosing what it's going to be about. Should i talk about Nazis? How about a game or a movie? Music should be good too 
+        right? After a good 20 minutes of thinking i decided something - the first video i see when i open youtube will 
+        be my topic. And the outcome? silly little animals, something that i cannot imagine anyone hating XD
+    </p>
+    <img class="fox" src="https://images.unsplash.com/photo-1522162363424-d29ded2ad958?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5pbWFscyUyMGhhcHB5fGVufDB8fDB8fHww" alt="Error">
+    <h3>bnuuy</h3>
+    <p>He's just a silly guy.<br> What we see in this video is a happy lil rabbit. How do we know? when rabbits are happy, they get zoomies, just like cats and dogs. This guy probably just had dinner XD</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EluTr4H_rNM?si=B8cC-NDTJm56kXWi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Deep Conversations</h3>
+    <p>DO NOT be fooled!! Theyre plotting something evil!<br> Cats purr when they are content. These two must be close!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/z3U0udLH974" title="The two talking cats" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+    <h3>Hellooooo</h3>
+    <p>Apex predator? No thanks I'll pet the dog. <br>This bear realised that waving to humans can get him treats. Good to see that he's utilising his talent well.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MNWOesnAWyE" title="Kodiak Bear Waving" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p> That's all everyone, hope you enjoyed it! </p>
+<h3>Get a Random Quote</h3>
+<p>Some motivation wont hurt, right?</p>
+<button onclick='getQuote()'>Get quote</button>
+<div id='insertQuoteHere'></div> 
+
+<h3>Contact me</h3>
+<p>Let's chat!</p>
+
+<form id="myForm" action="ty.html" >
+    <fieldset>
+        <legend>About You</legend>
+    <label for="firstName">Name-</label>
+    <input type="text" name="firstName" id="firstName" placeholder="Name" autocomplete="on" required> <br>
+    
+    <label for="Email">Email ID-</label> 
+    <input type="text" id="Email" placeholder="xyz@gmail.com" autocomplete="on" required> <br>
+    
+
+</fieldset>
+
+    <fieldset>
+    <legend>Message</legend>
+    <label for="Message">Message to author-</label>
+    <input type="text" name="Message" id="Message" placeholder="Anything, really ;D" autocomplete="on" required> <br>
+   
+    <label for="subject">Subject of your Message</label>
+    <input type="text" name="subject" id="subject" list="subject-list">
+    <datalist id="subject-list">
+        <option value="complaint">
+        <option value="suggestion">
+        <option value="reccomendation">
+        <option value="others">
+    </datalist>
+</fieldset><br>
+
+<button type="submit" onclick="validate()">Submit</button>
+<button type="reset">Clear</button>
+</form>
+
+
+    <footer>by Nimisha Tripathi <br> CB23162 </footer>
+  
+</body>
+<script src="validate.js"></script>
+</html>
